@@ -16,6 +16,11 @@ body
     z-index: 10;
     cursor: pointer;
 }
+.my_nav_bar{
+    position:sticky;
+    top: 0;
+    z-index: 99999;
+}
 #welcome{
      position: absolute;
     color: black;
@@ -33,6 +38,9 @@ body
     padding-right: 9px;
     font-family: fantasy;
     font-size: 20px;
+}
+input{
+    background: grey;
 }
 .links: hover{
     background-color: aqua;
